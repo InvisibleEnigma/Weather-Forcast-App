@@ -3,43 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather Forcast App</title>
   </head>
   <body>
     <div class="weather-app">
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a City..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <div>
-      <h1>Brisbane</h1>
-      <p>
-        Saturday 11:31, sunny
-        <br />
-        Humidity: 40%, Wind: 1.12km/h
-      </p>
-    </div>
-    <div>☀️ 25°C</div>
-    <footer>
-      Coded by
-      <a href="https://github.com/InvisibleEnigma" target="_blank"> AJC</a> and
-      hosted on both
-      <a
-        href="https://github.com/InvisibleEnigma/Weather-Forcast-App"
-        target="_blank"
-      >
-        Github
-      </a>
-      and
-      <a href="https://tenki-forcast.netlify.app/" target="_blank">Netifly</a>.
-    </footer>
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a City..."
+            class="search-form-input"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-app-city">Brisbane</h1>
+            <p class="weather-app-details">
+              Saturday 11:31, sunny
+              <br />
+              Humidity:<strong> 40%</strong>, Wind: <strong>1.12km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temp">☀️ 25°C</div>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/InvisibleEnigma" target="_blank"> AJC</a>
+        and hosted on both
+        <a
+          href="https://github.com/InvisibleEnigma/Weather-Forcast-App"
+          target="_blank"
+        >
+          Github
+        </a>
+        and
+        <a href="https://tenki-forcast.netlify.app/" target="_blank">Netifly</a
+        >.
+      </footer>
     </div>
   </body>
 </html>
