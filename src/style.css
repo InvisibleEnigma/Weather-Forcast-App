@@ -61,12 +61,12 @@ main {
   display: flex;
 }
 .weather-app-icon {
-  font-size: 44px;
+  font-size: 55px;
   margin-top: 22px;
 }
 .weather-app-temp-value {
-  font-size: 66px;
-  margin-left: 10px;
+  font-size: 75px;
+  margin-left: 15px;
   font-weight: bold;
 }
 .weather-app-unit {
