@@ -71,12 +71,10 @@ main {
   font-size: 28px;
 }
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 .forecast-date {
@@ -86,15 +84,13 @@ main {
   margin-bottom: 5px;
 }
 .weather-forecast-icon {
-  font-size: 45px;
-  text-align: center;
+  width: 65px;
 }
 .weather-forecast-temperature {
   text-align: center;
   font-size: 15px;
   opacity: 0.8;
-  color: #F08C1A;
- 
+  color: #f08c1a;
 }
 .weather-forecast-temperature-min {
   opacity: 0.6;
